@@ -1,0 +1,315 @@
+/* mainFile */
+a {
+    color: #122d4a;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    background: #F6F7F8;
+    text-align: right;
+}
+
+.navbar-brand {
+    background: url('img/logo.gif');
+    width: 50vw;
+    height: 92px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.3em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgba(16, 135, 172, 0.9);
+}
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-left: .5rem;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-right: .5rem;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.bk-blue {
+    background-color: #4296C8;
+}
+
+.bk-purble {
+    background-color: #151540;
+}
+
+.bk-green {
+    background: #2C8D4E;
+}
+
+.bk-white {
+    background: #FFFFFF;
+}
+
+.content {
+    margin-top: 25px;
+}
+
+.title {
+    padding: 15px;
+    border-radius: 9px;
+    color: #FFF;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.card {
+    border-radius: 0.4rem;
+}
+
+.cardInfo img {
+    width: 5vw;
+    margin-left: 2rem
+}
+
+.fZ2 {
+    font-size: 2.2rem;
+    /* color: #888888; */
+}
+
+.fZ1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.projectInfo {
+    margin-top: 1rem;
+}
+
+.redirectNav {
+    background: #FFF;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border-radius: 0.4rem;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #453D31 !important;
+}
+
+.cw {
+    color: #FFF;
+}
+
+.cb {
+    color: #2C2C2C;
+}
+
+.leftSide {
+    font-size: 2.5rem;
+    height: 100%;
+    color: #FFF;
+}
+
+.title-paragraph {
+    font-size: 1.8rem;
+    padding: 0 1rem;
+}
+
+.infoDate {
+    font-weight: 200;
+}
+
+.progress {
+    direction: ltr;
+    background: transparent;
+}
+
+.progressNon {
+    direction: rtl;
+    margin: 22px 0;
+}
+
+.stronger {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.gray {
+    color: #A19B98;
+    font-size: 1.5rem;
+}
+
+.bg-white {
+    background: #FFF;
+}
+
+.projects-list span {
+    font-size: 1.5em;
+    color: #504e4e;
+}
+
+.projects-list p {
+    color: #7d7878;
+    font-size: 1.2rem;
+}
+
+.bk-placeholder {
+    border-radius: 5px;
+    height: 100%;
+    padding: 50% 20%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4e5c73;
+    background: -webkit-gradient(linear, right top, left top, from(#ddd), color-stop(50%, #ddd), to(#ddd));
+    background: linear-gradient(-90deg, #efefef 0%, #FFF 50%, #efefef 100%);
+    background-size: 400% 400%;
+    -webkit-animation: pulse 1.2s ease-in-out infinite;
+    animation: pulse 1.2s ease-in-out infinite;
+}
+.projectDesc .card{
+    margin-bottom: 5px;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: -135% 0%;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: -135% 0%;
+    }
+}
+
+.informationTab .card {
+    margin: 5px 0;
+}
+
+.progressing {
+    margin: 10px 0;
+}
+.loginPage{
+    background: #FFF;
+}
+.login {
+    padding: 70% 0;
+    padding-bottom: 0;
+}
+.login-container {
+    background: url(img/bk.png) no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-position: right;
+}
+.splash{
+    padding: 0 80px !important;
+    width: 50% !important;
+}
+
+.splash .login {
+    padding: 60% 0;
+    padding-bottom: 0;
+}
+
+.formContainer{
+    margin: 0;
+    /* position: absolute; */
+    /* top: 40%; */
+    left: 30%;
+    /* transform: translate(-50%, -50%); */
+    width: 40%;
+    text-align: center;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+.login h2{
+    font-size: 3em;
+    color: #35a9ec;
+}
+h2 span{
+    color: rgb(189, 27, 27);
+}
+.redirectTo {
+    margin-top: 25px;
+}
+.redirectTo li {
+    margin: 5px 0;
+    width: 45%;
+    display: inline-block;
+}
+.redirectTo li a {
+    display: block;
+    background: rgb(82, 156, 190);
+    padding: 20px 10px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #FFF;
+    text-decoration: none;
+}
+.redirectTo li a.bkRed{
+    background: rgb(163, 30, 30);
+}
+.loginContainer {
+    background: #EDEDED;
+    padding: 35px 80px;
+    text-align: right;
+    margin-top: 25px;
+    border-radius: 0.5rem;
+}
+.folderList{
+    margin-top: 15px;
+}
+.folderList li a {
+    background: #000036;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #ffb406fa;
+    font-weight: 500;
+}
+.folderList .back i {
+    font-size: 24px;
+    color: #000036;
+}
+.folderList .back a {
+    background: transparent;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+.w-15 {
+    width: 15%!important;
+}
+@media (min-width: 576px){
+
+    .mr-sm-2,
+    .mx-sm-2 {
+        margin-left: .5rem !important;
+    }
+
+
+
+}
